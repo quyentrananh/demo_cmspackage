@@ -16,9 +16,7 @@
         }
     },
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.x-dev"
-        },
+
         "laravel": {
             "providers": [
                 "Quyen\\Cmspackage\\CmsServiceProvider"
