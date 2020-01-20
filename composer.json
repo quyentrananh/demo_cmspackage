@@ -1,0 +1,28 @@
+{
+    "name": "quyen/cmspackage",
+    "description": "this is first package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Trần Anh Quyền",
+            "email": "quyenta@vatgia.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Quyen\\Cmspackage\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Quyen\\Cmspackage\\CmsServiceProvider"
+            ]
+        }
+    }
+}
